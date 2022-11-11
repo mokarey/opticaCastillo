@@ -6,7 +6,7 @@
 
 /*----------MEDIA QUERIES----------*/
 /*----------Mobile----------*/
-@media (min-width: 400px) and (max-width:500px){
+@media (min-width: 360px) and (max-width:500px){
   /*           NAV            */
 
 
@@ -25,10 +25,9 @@ nav div a{
    font-family:serif;
    letter-spacing: 1px;
    font-weight: bold;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
    color: #5c1350;
    align-items: center;
-   margin-top: 20px;
    
  }
  nav div a:hover{
@@ -68,7 +67,7 @@ nav div a{
  }
 
 .navIcon {
-   width: 90px;
+   width: 80px;
    padding-left:10px;
    position: relative ;
    transition: 1s;
@@ -78,8 +77,8 @@ nav div a{
   z-index: 2;
 }
 .navbar h1{
-  font-size: 1.6rem;
-  padding-right: 15px;
+  font-size: 35px;
+  padding: 0px 5px 0px 5px;
   color: #5c1350;
   font-family: serif;
 }
@@ -201,8 +200,8 @@ height: 100%;
   }
   .titulo2{
     margin: 0px 10px 0px 10px;
-    padding: 100px 10px 10px 10px;
-    font-size: 3rem;
+    padding: 100px 10px 100px 10px;
+    font-size: 2.5rem;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -289,7 +288,7 @@ height: 100%;
 }
 .card-doc-med {
   position: relative;
-  width:415px;
+  width:360px;
   height: 340px;
   background: #fff;
   border-radius: 5px;
@@ -424,7 +423,7 @@ transition:1s;
 
 .card-doc {
   position: relative;
-  width:415px;
+  width:360px;
   height: 320px;
   background: #fff;
   border-radius: 1px;
@@ -523,7 +522,7 @@ transition:0.5s;
 /*---------------------FOTOS-----------------------*/
 .card-info {
   position: relative;
-  width:415px;
+  width:360px;
   height: 340px;
   background: #fff;
   border-radius: 5px;
@@ -604,7 +603,7 @@ transition:0.5s;
 
 .card-info .info-desc p {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 15px;
   
 }
 .card-info .info-desc button {
@@ -634,11 +633,11 @@ border-color: #573d5f}
 
 .card-info .info-desc-2 p {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 15px;
   padding: 0px 5px 0px 5px;  
 }
 .card-info .info-desc-2 button {
-padding: 8px;
+padding: 5px;
 border-radius: 10px;
 background-color: #573d5f;
 border-color: #573d5f
@@ -646,7 +645,7 @@ border-color: #573d5f
 
 .card-info .info-desc-2 button a{
   text-decoration: none; 
-  font-size: 15px;
+  font-size: 14px;
   color: #fff;
   text-align: center;
 }
@@ -719,57 +718,14 @@ border-color: #573d5f
 iframe{
   padding: 2px;
   position: relative ;
-   width: 415px;
-   height: 400px;
+   width: 400px;
+   height: 300px;
    border-radius: 8px;
 }
 .iframe-display{
   padding-top: 30px;
-  padding-bottom: 100px;
 }
 
-.social{
-  padding-top: 20px;
-}
-
-.social-media{
-  width:418px;
-  height: 350px;
-  background: #BBA3C5;
-  border-radius: 5px;
-  border: #5c1350 solid;
-  overflow: hidden;
-  transition: .5s;
-} 
-.social-media .description-doc .social-titule{
-color: rgb(255, 255, 255);
-padding-top: 10px;
-padding-left: 20px;
-padding-bottom: 10px;
-font-size: 35px;
-background-color: #6a4b74;
-}
-.social-media .description-doc .social-parraf{
-  padding-top: 0px;
-  padding-left:5px;
-  font-size:20px;
-  }
-.social-media .description-doc .social-parraf a{
- text-decoration: none;
- font-size:20px;
- color: rgb(0, 0, 0);
- padding: 3px;
- padding-left: 12px;
- padding-right: 12px;
- border-radius: 20px;
- }
- .social-media .description-doc .social-parraf a:hover{
-  background-color: #a78cad;
-  transition: 0.3s;
- }
-.pad{
-  padding: 10px;
-}
 /*--------------------FOOTER--------------------*/
 .pie-pagina{
   width: 100%;
