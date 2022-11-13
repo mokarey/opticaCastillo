@@ -6,7 +6,7 @@
 
 /*----------MEDIA QUERIES----------*/
 /*----------Mobile----------*/
-@media (min-width: 360px) and (max-width:500px){
+@media (min-width: 355px) and (max-width:500px){
   /*           NAV            */
 
 
@@ -19,16 +19,16 @@
 
 nav div a{
   text-align: center;
-   font: "Arial";
    position: relative;
    text-decoration: none;
-   font-size: 18px;
+   font-size: 17px;
    font-family:serif;
    letter-spacing: 1px;
    font-weight: bold;
   padding: 10px 10px 10px 10px;
    color: #5c1350;
    align-items: center;
+   font-family: sans-serif;
    
  }
  nav div a:hover{
@@ -81,7 +81,6 @@ nav div a{
   font-size: 35px;
   padding: 0px 5px 0px 5px;
   color: #5c1350;
-  font-family: serif;
 }
 
 #carouselExampleFade .carousel-inner .carousel-item .carousel-caption{
@@ -194,19 +193,24 @@ height: 100%;
   
   .titulo1{
     margin: 0px 10px 0px 10px;
-    padding: 100px 10px 100px 10px;
-    font-size: 3rem;
+    padding: 10px 10px 50px 10px;
+    font-size: 2.5rem;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
   }
   .titulo2{
     margin: 0px 10px 0px 10px;
-    padding: 100px 10px 100px 10px;
-    font-size: 2.5rem;
+    padding: 0px 10px 50px 10px;
+    font-size: 2.2rem;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
   }
-  
+  .titulo3{
+    margin: 0px 10px 0px 10px;
+    padding: 50px 10px 50px 10px;
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: sans-serif;
+  }
   .parrafo1{
     text-align: center;
    
@@ -274,7 +278,7 @@ height: 100%;
 }
 
 .card-container .boxing .card-text p{
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .card-container div img{
@@ -288,7 +292,7 @@ height: 100%;
 }
 .card-doc-med {
   position: relative;
-  width:360px;
+  width:350px;
   height: 340px;
   background: #fff;
   border-radius: 5px;
@@ -423,7 +427,7 @@ transition:1s;
 
 .card-doc {
   position: relative;
-  width:360px;
+  width:350px;
   height: 320px;
   background: #fff;
   border-radius: 1px;
@@ -522,7 +526,7 @@ transition:0.5s;
 /*---------------------FOTOS-----------------------*/
 .card-info {
   position: relative;
-  width:360px;
+  width:350px;
   height: 340px;
   background: #fff;
   border-radius: 5px;
@@ -564,8 +568,8 @@ transition:0.5s;
 
 
 .card-info .head-info .img-info {
-  width: 250px;
-  height: 250px;
+  width: 240px;
+  height: 240px;
   position: absolute;
   background: #fff;
   padding: 5px;
@@ -614,7 +618,7 @@ border-color: #573d5f}
 
 .card-info .info-desc button a{
   text-decoration: none; 
-  font-size: 15px;
+  font-size: 14px;
   color: #fff;
   text-align: center;
 }
@@ -645,17 +649,17 @@ border-color: #573d5f
 
 .card-info .info-desc-2 button a{
   text-decoration: none; 
-  font-size: 14px;
+  font-size: 15px;
   color: #fff;
   text-align: center;
 }
 .card-info .head-info .circle-info-3 {
   position: absolute;
-  width: 270px;
+  width: 250px;
   height: 270px;
   border-radius: 50%;
   background: #6a4b74;
-  top: -90%;
+  top: -80%;
   left: -20%;
 }
 .card-info .head-info .img-info-3 {
@@ -765,6 +769,7 @@ iframe{
 .pie-pagina .grupo-1 .box p{
   color: rgb(218, 218, 218);
   margin-bottom: 10px;
+  font-size: 15px;
 }
 
 .pie-pagina .grupo-1 a{
