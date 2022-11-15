@@ -779,7 +779,7 @@ iframe{
   display: inline-block;
 }
 
-.pie-pagina .grupo-1 a{
+.pie-pagina .grupo-1 .box .red-social a{
   display: inline-block;
   text-decoration: none;
   width: 45px;
@@ -793,7 +793,7 @@ iframe{
   transition: all 300ms ease;
 }
 
-.pie-pagina .grupo-1 a:hover{
+.pie-pagina .grupo-1 .box .red-social a:hover{
   color: blueviolet;
 }
 
