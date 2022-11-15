@@ -1316,7 +1316,7 @@ footer{
   }
   
   .boxing{
-    width: 200px;
+    width: 250px;
     height: 300px;
     margin: 0 5px;
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
@@ -1366,10 +1366,10 @@ footer{
     box-sizing: border-box;
   }
   .card-container .boxing .card-text p{
-  font-size: 12px;
+  font-size: 14px;
   }
   .card-container div img{
-    width: 110px;
+    width: 130px;
   }
   /*-------------------------FOTOS-------------------------*/
 
@@ -1653,6 +1653,40 @@ footer{
     font-size: 15px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*----------Desktop----------*/
 
 
@@ -1783,13 +1817,13 @@ border-color: #2b0424;
 .carousel-btn{
  padding-top: 20px ;
 }
-.carousel-inner .carousel-item h1{
+.carousel-inner .carousel-item .carousel-caption h1{
  height: auto;
  color: #fff;
  width: 100%;
  z-index: 1;
  text-align: center;
- font-size: 2.5em;
+ font-size: 3.5em;
  font-weight: 750;
  padding-bottom: 5px;
  text-transform: uppercase;
@@ -2120,7 +2154,7 @@ transition:0.5s;
 }
 
 .boxing{
-  width: 250px;
+  width: 300px;
   height: 300px;
   margin: 0 10px;
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
@@ -2182,7 +2216,7 @@ font-size: 14px;
 /*-------------------------FOTOS-------------------------*/
 .card-info {
   position: relative;
-  width:500px;
+  width:600px;
   height: 360px;
   background: #fff;
   border-radius: 5px;
