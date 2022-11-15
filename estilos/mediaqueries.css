@@ -772,6 +772,12 @@ iframe{
   font-size: 15px;
 }
 
+.pie-pagina .grupo-1 .box .phone{
+  color: rgb(218, 218, 218);
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
 .pie-pagina .grupo-1 a{
   display: inline-block;
   text-decoration: none;
