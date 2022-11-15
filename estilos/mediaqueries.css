@@ -776,6 +776,7 @@ iframe{
   color: rgb(218, 218, 218);
   margin-bottom: 10px;
   font-size: 12px;
+  display: inline-block;
 }
 
 .pie-pagina .grupo-1 a{
