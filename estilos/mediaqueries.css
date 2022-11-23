@@ -843,7 +843,7 @@ footer{
 .card-services {
   position: relative;
   width:350px;
-  height: 1200px;
+  height: 1300px;
   background: #fff;
   border-radius: 5px;
   border: #5c1350 solid;
@@ -865,12 +865,12 @@ footer{
 
 .card-services .head-services .circle-services {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   background: #6a4b74;
-  top: -60%;
-  left: -5%;
+  top: -70%;
+  left: -7%;
 }
 
 .card-services .head-services .circle-services-2 {
@@ -879,17 +879,17 @@ footer{
   height: 300px;
   border-radius: 50%;
   background: #6a4b74;
-  top: 790%;
+  top: 890%;
   left: -5%;
 }
 
 .card-services .head-services .circle-services-5 {
   position: absolute;
-  width: 200px;
+  width: 160px;
   height: 2px;
   background: #6a4b74;
-  top: 550%;
-  left: 20%;
+  top: 595%;
+  left: 25%;
 }
 
 .card-services .head-services .circle-services-6 {
@@ -963,7 +963,7 @@ footer{
   padding: 5px;
   border-radius: 50%;
   left: 70%;
-  top: 790%;
+  top: 880%;
   transform: translate(-50%);
 }
 
@@ -994,15 +994,24 @@ footer{
   bottom: -5%;
   left: 2%;
 }
+.card-services .info-services-2 h1{
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
 
 .card-services .info-services-3{
   padding: 25px 0px 20px 10px;
   position: relative;
-  bottom: -6%;
+  bottom: -5%;
   left: 2%;
 }
 
+.card-services .info-services-3 h1{
+  padding-top: 5px;
+  padding-bottom: 5px;
 
+}
 .card-services .info-services h3 {
   color: #25102c;
 }
@@ -1284,7 +1293,13 @@ transition:1s;
     font-size: 3.5rem;
     padding: 50px 40px 50px 40px;
   }
+  .titulo-serv{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2.7rem;
+    padding: 20px 40px 20px 40px;
   
+  }
   .parrafo1{
     text-align: center;
    
@@ -1885,8 +1900,8 @@ transition:1s;
   /*-----------------------------------------SERVICIOS-----------------------------------------------------------*/
 .card-services {
   position: relative;
-  width:1200px;
-  height: 540px;
+  width:750px;
+  height: 900px;
   background: #fff;
   border-radius: 5px;
   border: #5c1350 solid;
@@ -1912,7 +1927,7 @@ transition:1s;
   height: 340px;
   border-radius: 50%;
   background: #6a4b74;
-  top: -10%;
+  top: -50%;
   left: -10%;
 }
 
@@ -1932,8 +1947,8 @@ transition:1s;
   height: 280px;
   border-radius: 50%;
   background: #6a4b74;
-  top: 270%;
-  left: 27%;
+  top: 180%;
+  left: 75%;
 }
 .card-services .head-services .circle-services-4 {
   position: absolute;
@@ -1941,8 +1956,8 @@ transition:1s;
   height: 200px;
   border-radius: 50%;
   background: #6a4b74;
-  top: 330%;
-  left: 45%;
+  top: 300%;
+  left: 85%;
 }
 
 .card-services .head-services .circle-services-5 {
@@ -1951,8 +1966,8 @@ transition:1s;
   height: 330px;
   border-radius: 50%;
   background: #6a4b74;
-  top: -70%;
-  left: 70%;
+  top: 520%;
+  left: 2%;
 }
 
 .card-services .head-services .circle-services-6 {
@@ -1961,18 +1976,18 @@ transition:1s;
   height: 240px;
   border-radius: 50%;
   background: #6a4b74;
-  top: -40%;
-  left: 60%;
+  top: 500%;
+  left: -10%;
 }
 .card-services .head-services .img-services {
-  width: 300px;
-  height: 300px;
+  width: 290px;
+  height: 290px;
   position: absolute;
   background: #fff;
   padding: 5px;
   border-radius: 50%;
   top: 5%;
-  left: 13%;
+  left: 22%;
   transform: translate(-50%);
 }
 
@@ -1992,14 +2007,14 @@ transition:1s;
 }
 
 .card-services .head-services .img-services-2 {
-  width: 260px;
-  height: 260px;
+  width: 280px;
+  height: 280px;
   position: absolute;
   background: #fff;
   padding: 5px;
   border-radius: 50%;
-  left: 45%;
-  top: 270%;
+  left: 90%;
+  top: 200%;
   transform: translate(-50%);
 }
 
@@ -2025,8 +2040,8 @@ transition:1s;
   background: #fff;
   padding: 5px;
   border-radius: 50%;
-  left: 80%;
-  top: -70%;
+  left: 18%;
+  top: 520%;
   transform: translate(-50%);
 }
 
@@ -2048,22 +2063,27 @@ transition:1s;
 .card-services .info-services{
   padding: 25px 0px 20px 10px;
   position: relative;
-  top: 35%;
+  top: -10%;
+  left: 45%;
+}
+
+.card-services .info-services h1{
+  font-size: 45px;
 }
 
 .card-services .info-services-2{
   padding: 25px 0px 20px 10px;
   position: relative;
-  bottom: 60%;
-  left: 28%;
+  bottom: -20%;
+  left: 50%;
   font-size: 1px;
 }
 
 .card-services .info-services-3{
   padding: 25px 0px 20px 10px;
   position: relative;
-  bottom: 84%;
-  left: 63%;
+  top: -47%;
+  left: 3%;
 }
 
 
@@ -2076,12 +2096,12 @@ transition:1s;
 }
 
 .card-services .info-services-2 h4{
-  font-size: 22px;
+  font-size: 20px;
   padding: 2px;
   
 }
 .card-services .info-services-3 h4{
-  font-size: 22px;
+  font-size: 20px;
   padding: 2px;
   
 }
@@ -2996,7 +3016,7 @@ iframe{
   height: 280px;
   border-radius: 50%;
   background: #6a4b74;
-  top: 270%;
+  top: 300%;
   left: 27%;
 }
 .card-services .head-services .circle-services-4 {
@@ -3015,7 +3035,7 @@ iframe{
   height: 330px;
   border-radius: 50%;
   background: #6a4b74;
-  top: -70%;
+  top: -90%;
   left: 70%;
 }
 
@@ -3026,7 +3046,7 @@ iframe{
   border-radius: 50%;
   background: #6a4b74;
   top: -40%;
-  left: 60%;
+  left: 62%;
 }
 .card-services .head-services .img-services {
   width: 300px;
@@ -3063,7 +3083,7 @@ iframe{
   padding: 5px;
   border-radius: 50%;
   left: 45%;
-  top: 270%;
+  top: 290%;
   transform: translate(-50%);
 }
 
@@ -3083,8 +3103,8 @@ iframe{
 }
 
 .card-services .head-services .img-services-3 {
-  width: 330px;
-  height: 330px;
+  width: 300px;
+  height: 300px;
   position: absolute;
   background: #fff;
   padding: 5px;
@@ -3119,14 +3139,14 @@ iframe{
   padding: 25px 0px 20px 10px;
   position: relative;
   bottom: 60%;
-  left: 28%;
+  left: 30%;
   font-size: 1px;
 }
 
 .card-services .info-services-3{
   padding: 25px 0px 20px 10px;
   position: relative;
-  bottom: 84%;
+  bottom: 95%;
   left: 63%;
 }
 
@@ -3140,16 +3160,27 @@ iframe{
 }
 
 .card-services .info-services-2 h4{
-  font-size: 22px;
+  font-size: 19px;
   padding: 2px;
-  
+}
+.card-services .info-services-2 h1{
+  padding: 2px;
 }
 .card-services .info-services-3 h4{
-  font-size: 22px;
+  font-size: 19px;
   padding: 2px;
   
 }
-
+.card-services .info-services-2 h1{
+  position: relative;
+  left: -2%;
+  
+}
+.card-services .info-services-3 h1{
+  position: relative;
+  right: 5%;
+  
+}
 .card-services .contact-services{
   width: 100%;
   height: 75px;
