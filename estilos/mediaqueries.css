@@ -96,13 +96,11 @@ nav div a{
 padding: 3px 6px 6px 6px;
 border-radius: 10px;
 background-color: #2b0424;
-border-color: #2b0424;
 }
-#carouselExampleFade .carousel-inner .carousel-item .carousel-caption button:hover{
-  background-color: #2b0424;
-  border-color: #2b0424;
-  transition: 0.5s;
-
+#carouselExampleFade .carousel-inner .carousel-item .carousel-caption .wp-button{
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #4ea03d;
 }
 
 #carouselExampleFade .carousel-inner .carousel-item .carousel-caption button a{
@@ -661,12 +659,17 @@ border-color: #573d5f}
 padding: 5px;
 border-radius: 10px;
 background-color: #573d5f;
-border-color: #573d5f
 }
+
+.card-info .info-desc-2 .wp-button{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #4ea03d;
+  }
 
 .card-info .info-desc-2 button a{
   text-decoration: none; 
-  font-size: 15px;
+  font-size: 14px;
   color: #fff;
   text-align: center;
 }
@@ -1181,14 +1184,15 @@ transition:1s;
   padding: 8px;
   border-radius: 10px;
   background-color: #2b0424;
-  border-color: #2b0424;
   }
-  #carouselExampleFade .carousel-inner .carousel-item .carousel-caption button:hover{
-   background-color: #2b0424;
-   border-color: #2b0424;
-   transition: 0.5s;
+
+  #carouselExampleFade .carousel-inner .carousel-item .carousel-caption .wp-button{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #4ea03d;
+  }
+
   
-  }
   
   #carouselExampleFade .carousel-inner .carousel-item .carousel-caption button a{
    text-decoration: none; 
@@ -1309,7 +1313,11 @@ transition:1s;
    
    
   }
-  
+  .wp-button{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #4ea03d;
+  }
   .section-uno{
     display: flex;
     
@@ -1624,7 +1632,7 @@ transition:1s;
   .card-container div img{
     width: 130px;
   }
-  /*-------------------------FOTOS-------------------------*/
+  /*-------------------------TARJETAS 2-------------------------*/
 
 
   .card-info {
@@ -1754,8 +1762,13 @@ transition:1s;
   padding: 5px;
   border-radius: 10px;
   background-color: #573d5f;
-  border-color: #573d5f
   }
+
+  .card-info .info-desc-2 .wp-button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #4ea03d;
+    }
   
   .card-info .info-desc-2 button a{
     text-decoration: none; 
@@ -2083,7 +2096,7 @@ transition:1s;
   padding: 25px 0px 20px 10px;
   position: relative;
   bottom: -20%;
-  left: 50%;
+  left: 48%;
   font-size: 1px;
 }
 
@@ -2258,14 +2271,13 @@ a:hover:after{
 padding: 8px;
 border-radius: 10px;
 background-color: #2b0424;
-border-color: #2b0424;
 }
-#carouselExampleFade .carousel-inner .carousel-item .carousel-caption button:hover{
- background-color: #2b0424;
- border-color: #2b0424;
- transition: 0.5s;
+#carouselExampleFade .carousel-inner .carousel-item .carousel-caption .wp-button{
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #4ea03d;
+}
 
-}
 
 #carouselExampleFade .carousel-inner .carousel-item .carousel-caption button a{
  text-decoration: none; 
@@ -2793,8 +2805,13 @@ font-size: 14px;
 padding: 6px;
 border-radius: 10px;
 background-color: #573d5f;
-border-color: #573d5f}
+}
 
+.card-info .info-desc-2 .wp-button{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #4ea03d;
+  }
 .card-info .info-desc button a{
   text-decoration: none; 
   font-size: 18px;
@@ -2823,7 +2840,6 @@ border-color: #573d5f}
 padding: 5px;
 border-radius: 10px;
 background-color: #573d5f;
-border-color: #573d5f
 }
 
 .card-info .info-desc-2 button a{
