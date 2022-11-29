@@ -892,11 +892,11 @@ footer{
 
 .card-services .head-services .circle-services-5 {
   position: absolute;
-  width: 160px;
+  width: 120px;
   height: 2px;
   background: #6a4b74;
-  top: 595%;
-  left: 25%;
+  top: 615%;
+  left: 35%;
 }
 
 .card-services .head-services .circle-services-6 {
@@ -1010,7 +1010,7 @@ footer{
 .card-services .info-services-3{
   padding: 25px 0px 20px 10px;
   position: relative;
-  bottom: -5%;
+  bottom: -2%;
   left: 2%;
 }
 
