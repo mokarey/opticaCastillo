@@ -27,7 +27,7 @@ nav div a{
   text-align: center;
    position: relative;
    text-decoration: none;
-   font-size: 17px;
+   font-size: 14px;
    font-family:serif;
    letter-spacing: 1px;
    font-weight: bold;
@@ -70,7 +70,7 @@ nav div a{
 .nav-icon{
   width: 50px;
   position: relative;
-  right: 4%;
+  right: 0%;
 }
 
 .nav-title{
@@ -856,7 +856,7 @@ footer{
 .card-services {
   position: relative;
   width:350px;
-  height: 1300px;
+  height: 1400px;
   background: #fff;
   border-radius: 5px;
   border: #5c1350 solid;
@@ -892,17 +892,17 @@ footer{
   height: 300px;
   border-radius: 50%;
   background: #6a4b74;
-  top: 890%;
+  top: 950%;
   left: -5%;
 }
 
 .card-services .head-services .circle-services-5 {
   position: absolute;
-  width: 120px;
+  width: 140px;
   height: 2px;
   background: #6a4b74;
-  top: 615%;
-  left: 35%;
+  top: 540%;
+  left: 30%;
 }
 
 .card-services .head-services .circle-services-6 {
@@ -976,7 +976,7 @@ footer{
   padding: 5px;
   border-radius: 50%;
   left: 70%;
-  top: 880%;
+  top: 940%;
   transform: translate(-50%);
 }
 
@@ -1016,7 +1016,7 @@ footer{
 .card-services .info-services-3{
   padding: 25px 0px 20px 10px;
   position: relative;
-  bottom: -2%;
+  bottom: -6%;
   left: 2%;
 }
 
@@ -2262,7 +2262,10 @@ a:hover:after{
   position: relative;
   left: 10%;
 }
-
+.posit{
+    position: relative;
+    right: 20%;
+}
 .nav-icon{
   width: 80px;
   position: relative;
@@ -3206,9 +3209,16 @@ iframe{
 .card-services .info-services-3{
   padding: 25px 0px 20px 10px;
   position: relative;
-  bottom: 95%;
+  bottom: 85%;
   left: 63%;
 }
+
+    .services-title{
+        position: relative;
+        font-size: 35px;
+        right: 90%;
+        bottom: 50%;
+    }
 
 
 .card-services .info-services h3 {
