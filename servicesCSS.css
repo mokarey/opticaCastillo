@@ -13,7 +13,7 @@
 /*----------MEDIA QUERIES----------*/
 /*----------Mobile----------*/
 @media (min-width: 355px) and (max-width:767px){
-  /*           NAV            */
+  /*           NAV           */
 
 
  nav div{   top: 0px;
@@ -27,11 +27,11 @@ nav div a{
   text-align: center;
    position: relative;
    text-decoration: none;
-   font-size: 14px;
+   font-size: 15px;
    font-family:serif;
    letter-spacing: 1px;
    font-weight: bold;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 5px 10px 5px;
    color: #5c1350;
    align-items: center;
    font-family: sans-serif;
@@ -229,7 +229,7 @@ height: 100%;
   .titulo-serv{
     text-align: center;
     font-family: sans-serif;
-    font-size: 2.0rem;
+    font-size: 2.7rem;
     padding: 20px 40px 20px 40px;
   
   }
@@ -906,7 +906,7 @@ footer{
   width: 140px;
   height: 2px;
   background: #6a4b74;
-  top: 680%;
+  top: 670%;
   left: 30%;
 }
 
@@ -1163,6 +1163,12 @@ transition:1s;
     left: 2%;
   }
 
+  .nav-icon-serv{
+    width: 80px;
+    position: relative;
+    right: 1%;
+  }
+
   .nav-title{
     font-size:20px ;
     position: relative;
@@ -1199,12 +1205,6 @@ transition:1s;
     position: relative ;
     transition: 1s;
   }
-  .nav-icon-serv{
-    width: 80px;
-    position: relative;
-    right: 1%;
-  }
-
   .navIcon:hover{
    transform: scale(1.1);
    z-index: 2;
@@ -2294,11 +2294,6 @@ a:hover:after{
   position: relative;
   right: 1%;
 }
-.nav-icon-serv{
-    width: 80px;
-    position: relative;
-    right: 1%;
-  }
 .image-container .image{
   max-width: 100%;
   max-height: 100vh;
@@ -2315,6 +2310,12 @@ a:hover:after{
   padding-left:10px;
   position: relative ;
   transition: 1s;
+}
+
+.nav-icon-serv{
+  width: 80px;
+  position: relative;
+  right: 1%;
 }
 .navIcon:hover{
  transform: scale(1.1);
@@ -2457,7 +2458,7 @@ height: 100%;
 .titulo-serv{
   text-align: center;
   font-family: sans-serif;
-  font-size: 3.7rem;
+  font-size: 3rem;
   padding: 50px 40px 50px 40px;
 
 }
